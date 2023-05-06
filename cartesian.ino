@@ -48,9 +48,9 @@ void jalan(){
     String a;
 
     a = Serial.readString();
-    x = getValue(a,';',0).toInt();
-    y = getValue(a,';',1).toInt();
-    z = getValue(a,';',2).toInt();
+    x = getValue(a,';',0).toInt(); //gatau
+    y = getValue(a,';',1).toInt(); //minus naik
+    z = getValue(a,';',2).toInt(); //plus maju
     g = getValue(a,';',3).toInt();
     
     
